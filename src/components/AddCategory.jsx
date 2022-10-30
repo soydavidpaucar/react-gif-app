@@ -19,7 +19,7 @@ export const AddCategory = ({onNewCategory}) => {
   return (
     <form onSubmit={onSubmit}>
       <input type="text"
-             className="border border-[#64ffda] rounded px-3 py-2 text-[#ccd6f6] outline-none bg-transparent mb-16"
+             className="border border-[#64ffda] rounded px-3 py-2 text-[#ccd6f6] outline-none bg-transparent mb-16 w-full placeholder-[#ccd6f6]"
              placeholder="Search gifs..." value={inputValue} onChange={handleInputChange} />
     </form>
   );
