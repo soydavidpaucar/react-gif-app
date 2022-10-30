@@ -13,7 +13,7 @@ export const GifApp = () => {
   };
   
   return (
-    <main className="bg-[#0a192f] p-[60px]">
+    <main className="bg-[#0a192f] p-[60px] min-h-screen">
       <h1 className="text-[#ccd6f6] text-6xl mb-5">GifApp</h1>
       
       <AddCategory onNewCategory={handleAddNewCategory} />
