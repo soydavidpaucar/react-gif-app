@@ -1,4 +1,11 @@
+import { getGifs } from '../helpers/getGifs.js';
+import { useEffect } from 'react';
+
 export const GifGrid = ({category}) => {
+  useEffect(() => {
+    getGifs(category);
+  }, []);
+  
   return (
     <>
       <h3 className="text-[#ccd6f6] text-4xl mb-2">{category}</h3>
