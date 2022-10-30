@@ -5,7 +5,9 @@ export const GifApp = () => {
   const [categories, setCategories] = useState([]);
   
   const handleAddNewCategory = (newCategory) => {
-    setCategories([newCategory, ...categories]);
+    if (!categories.map(category => category.toLowerCase()).includes(newCategory.toLowerCase())) {
+      setCategories([...categories, newCategory]);
+    }
   };
   
   return (
