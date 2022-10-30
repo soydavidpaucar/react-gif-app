@@ -8,7 +8,7 @@ export const GifApp = () => {
   
   const handleAddNewCategory = (newCategory) => {
     if (!categories.map(category => category.toLowerCase()).includes(newCategory.toLowerCase())) {
-      setCategories([...categories, newCategory]);
+      setCategories([newCategory, ...categories]);
     }
   };
   
