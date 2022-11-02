@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "test": "vitest",
     "coverage": "vitest run --coverage",
-    "webstorm-integration": "vitest --watch --reporter=dot --reporter=json --outputFile=.vite st-result.json"
+    "webstorm-integration": "vitest --watch --reporter=dot --reporter=json --outputFile=.vitest-result.json"
   },
   "dependencies": {
     "prop-types": "^15.8.1",
