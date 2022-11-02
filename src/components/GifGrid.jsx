@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+
 import { GifItem } from './';
 import { useFetchGifs } from '../hooks/useFetchGifs.js';
 
