@@ -1,9 +1,7 @@
-import { afterEach, describe, expect, it } from 'vitest';
-import { cleanup, renderHook, waitFor } from '@testing-library/react';
+import { describe, expect, it } from 'vitest';
+import { renderHook, waitFor } from '@testing-library/react';
 
 import { useFetchGifs } from '../../src/hooks/useFetchGifs.js';
-
-afterEach(cleanup);
 
 describe('test useFetchGifs custom hook', () => {
   

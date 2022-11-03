@@ -1,10 +1,8 @@
-import { afterEach, describe, expect, it, vi } from 'vitest';
-import { cleanup, render, screen } from '@testing-library/react';
+import { describe, expect, it, vi } from 'vitest';
+import { render, screen } from '@testing-library/react';
 
 import { GifGrid } from '../../src/components';
 import { useFetchGifs } from '../../src/hooks/useFetchGifs.js';
-
-afterEach(cleanup);
 
 vi.mock('../../src/hooks/useFetchGifs.js');
 

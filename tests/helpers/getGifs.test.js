@@ -1,9 +1,6 @@
-import { cleanup } from '@testing-library/react';
-import { afterEach, describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vitest';
 
 import { getGifs } from '../../src/helpers/getGifs.js';
-
-afterEach(cleanup);
 
 describe('tests on getGifs helper', () => {
   it('should return an array of gifs', async () => {

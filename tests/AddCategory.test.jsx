@@ -1,9 +1,7 @@
-import { afterEach, describe, expect, it, vi } from 'vitest';
-import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+import { describe, expect, it, vi } from 'vitest';
+import { fireEvent, render, screen } from '@testing-library/react';
 
 import { AddCategory } from '../src/components';
-
-afterEach(cleanup);
 
 describe('test AddCategory component', () => {
   it('should change the value of the input', () => {

@@ -1,10 +1,7 @@
-import { cleanup, render, screen } from '@testing-library/react';
-import { afterEach, describe, expect, it } from 'vitest';
+import { render, screen } from '@testing-library/react';
+import { describe, expect, it } from 'vitest';
 
 import { GifItem } from '../../src/components';
-
-/* Cleaning up the DOM after each test. */
-afterEach(cleanup);
 
 describe('test GifItem component', () => {
   const title = 'Test Title';
