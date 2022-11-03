@@ -21,6 +21,10 @@
 - React.js
 - Vite
 - JavaScript
+- Vitest
+- Jest
+- Unit Testing
+- Testing Library - React
 - Tailwind CSS
 - Api Fetch
 
