@@ -1,7 +1,7 @@
 import { describe, expect, it, vi } from 'vitest';
 import { fireEvent, render, screen } from '@testing-library/react';
 
-import { AddCategory } from '../src/components';
+import { AddCategory } from '../../src/components/index.js';
 
 describe('test AddCategory component', () => {
   it('should change the value of the input', () => {
