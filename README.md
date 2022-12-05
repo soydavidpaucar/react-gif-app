@@ -6,14 +6,14 @@
 
 - [Links](#links)
 - [Built With](#built-with)
-- [Run Locally](#run-locally)
+- [Live Preview](#live-preview)
+- [Live Site](#live-site)
 - [Author](#author)
 - [License](#license)
 
 ## Links
 
 - [Repo](https://github.com/soydavidpaucar/react-gif-app "GitHub Repo")
-- [Live](https://gifapp.davidpaucar.com "Live")
 
 ## Built With
 
@@ -28,43 +28,19 @@
 - Tailwind CSS
 - Api Fetch
 
-## Run Locally
+## Live Preview
 
-Clone the project
+![Live Preview](https://i.ibb.co/WsYPvs7/Clean-Shot-2022-12-04-at-23-12-22-2x.png)
 
-```bash
-  git clone https://github.com/soydavidpaucar/react-gif-app.git
-```
+## Live Site
 
-Go to the project directory
-
-```bash
-  cd react-gif-app
-```
-
-Install dependencies
-
-```bash
-  yarn
-```
-
-Create a .env file and add the following environment variables with your GIPHY API key
-
-```bash
-  VITE_GIPHY_API_KEY=YOUR_GIPHY_API_KEY
-```
-
-Start the server
-
-```bash
-  yarn preview
-```
+[Live](https://gifapp.davidpaucar.com 'Live')
 
 ## Author
 
 **David Paucar**
 
-- [Profile](https://github.com/soydavidpaucar "David Paucar")
+- [LinkedIn Profile](https://www.linkedin.com/in/davidpaucar/ "David Paucar")
 - [Email](mailto:soydavidpaucar@gmail.com "Hi!")
 
 ## License
