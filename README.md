@@ -34,7 +34,7 @@
 
 ## Live Site
 
-[Live](https://gifapp.davidpaucar.com 'Live')
+[Live](https://gif.davidpaucar.com 'Live')
 
 ## Author
 
